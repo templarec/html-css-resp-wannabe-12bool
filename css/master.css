@@ -23,6 +23,9 @@ img {
 }
 
 @media all and (min-width: 992px) {
+  .container {
+    max-width: 1170px;
+  }
   #lezioni, #why {
     background-color: #F9F9F9;
 }
