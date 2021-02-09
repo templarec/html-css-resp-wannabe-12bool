@@ -21,3 +21,15 @@ img {
 #lezioni, #why {
   background-color: #F2F2CD;
 }
+@media all and (max-width: 991px) {
+  #why div:nth-child(n+2):nth-child(-n+4){
+    height: 300px;
+
+  }
+  #steps div:last-child, #why div:last-child {
+    padding-top: 20px;
+  }
+  #why div:nth-child(2){
+    padding-top: 18px;
+  }
+}
