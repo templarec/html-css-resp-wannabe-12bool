@@ -1,0 +1,23 @@
+img {
+  height: 200px;
+}
+.row {
+  padding: 20px 0;
+}
+#lezioni, #steps, #why {
+  text-align: center;
+}
+#lezioni .row img {
+  /* per centrare orizzontalmente */
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+#why img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px
+}
+#lezioni, #why {
+  background-color: #F2F2CD;
+}
