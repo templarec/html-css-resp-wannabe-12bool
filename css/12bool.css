@@ -94,7 +94,7 @@
     width: 100%;
   }
 }
-@media all and (max-width: 991px) {
+@media all and (min-width: 768px) and (max-width: 991px) {
   .col-md-1 {
     width: calc(100% / 12);
   }
